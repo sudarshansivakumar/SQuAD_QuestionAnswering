@@ -6,3 +6,4 @@ This is the code for a Question Answering System trained on the SQuAD dataset ( 
   * The training and validation accuracy are computed using the fine-tuned model.  
  
  I also used Streamlit in order to create a locally hosted web application in which the user inputs a question and context, and is given the answer span from the context which is the most probable answer. The code for this can be found in the app.py file
+ ![A screenshot from the application](Deployed_QA_Model.PNG)
