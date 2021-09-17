@@ -5,5 +5,5 @@ This is the code for a Question Answering System trained on the SQuAD dataset ( 
   * The DistilBertForQuestionAnswering function is fine-tuned by feeding the batchwise input IDs,attention masks,and answer start and end positions. The training loss is 0.9, and the validation loss is 1.2 
   * The training and validation accuracy are computed using the fine-tuned model.  
  
- I also used Streamlit in order to create a locally hosted web application in which the user inputs a question and context, and is given the answer span from the context which is the most probable answer. The code for this can be found in the app.py file
+ I also used Streamlit to deploy the system as an application, in which the user inputs a question and context, and is given the answer span from the context which is the most probable answer. The code for this can be found in the app.py file.  You can try out the app [here](https://share.streamlit.io/sudarshansivakumar/squad_questionanswering/main/app.py) . Attached below is the screenshot from the application
  ![A screenshot from the application](Deployed_QA_Model.PNG)
